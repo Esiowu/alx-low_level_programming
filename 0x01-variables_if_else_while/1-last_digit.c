@@ -24,7 +24,7 @@ puts("and is 0");
 }
 else
 {
-puts(" and is less than 6 and not 0");
+puts("and is less than 6 and not 0");
 }
 return (0);
 }
