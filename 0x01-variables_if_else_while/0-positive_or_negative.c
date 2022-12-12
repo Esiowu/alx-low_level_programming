@@ -1,10 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - Determine if a number is positive, negative or zero
  * Return: 0
  */
+
 int main(void)
 {
 	int n;
@@ -16,15 +18,16 @@ int main(void)
 
 	if (n > 0)
 	{
-		puts("%d is positive\n");
+		puts("is positive");
 	}
 	else if (n == 0)
 	{
-		puts("%d is zero\n");
+		puts("is zero");
 	}
 	else
 	{
-		puts("%d is negative\n");
+		puts("is negative");
 	}
+
 	return (0);
 }
