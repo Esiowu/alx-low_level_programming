@@ -5,7 +5,7 @@
  * Return:0 (Success)
  */
 
-print_alphabet_x10(void)
+void_print_alphabet_x10(void)
 {
 int ten;
 char la;
