@@ -2,7 +2,7 @@
 
 /**
  * print_alphanet_x10 - prints alpha 10 times
- * Return: Success
+ * Return:0 (Success)
  */
 
 print_alphabet_x10(void)
@@ -12,7 +12,7 @@ char la;
 
 for (ten = 0; ten <= 9; ten++)
 {
-for (la + 'a'; la <= 'z'; la++)
+for (la = 'a'; la <= 'z'; la++)
 _putchar(la);
 _putchar('\n');
 }
