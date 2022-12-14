@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * Add - add two nums
@@ -6,6 +6,7 @@
  * @b: the second number
  * Return: the summation of both
  */
+
 int add(int a, int b)
 {
 return (a + b);
