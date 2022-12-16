@@ -6,9 +6,8 @@
  * Return: 0
  */
 
-int largest_number(void)
+int largest_number(int a, int b, int c)
 {
-int a, b, c;
 if (a > b)
 {
 if (b > c)
