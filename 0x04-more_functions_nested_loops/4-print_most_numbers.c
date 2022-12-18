@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Printing numbers between 0 to 9
- * (neither 2 nor 3)
+ * (neither 2 nor 4)
  * Return: no return
  */
 
