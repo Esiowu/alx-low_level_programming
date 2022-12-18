@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Printing numbers between 0 to 9
- * (neither 2 nor 4)
+ * except 2 and 4, followed by a new line
  * Return: no return
  */
 
@@ -10,10 +10,12 @@ void print_most_numbers(void)
 {
 	int ch;
 
-	for (ch = 48; ch < 58; ch++)
+	for (ch = 0; ch < 10; ch++)
 	{
-		if (ch != 50 && ch != 52)
-			_putchar(ch);
+		if (ch != 2 && ch != 4)
+		{
+			_putchar(ch + '0');
+		}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
