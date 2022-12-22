@@ -1,0 +1,1 @@
+more ponters array strings
