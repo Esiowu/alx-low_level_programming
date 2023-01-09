@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Factorial - A fxn that returns the factorial of a given number
+ * factorial - A fxn that returns the factorial of a given number
  * @n: An input integer
  * Return: -1 if n is less than 0
  */
